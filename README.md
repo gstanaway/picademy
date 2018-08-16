@@ -1,24 +1,26 @@
 # ldr experiment trigger
 
 ### description 
-A project for day two of Picademy Seattle 2018. Program waits for high light level, then displays sensehat data in shell, writes it to a `.csv` file.
+A project from day two of Picademy Seattle 2018. Program waits for high light level, then displays sensehat data in shell, and also writes it to a `.csv` file.
+
 ### team
 clare tally-foos, grant stanaway, jeannette milland vigio, kelly faber, scott mccomb
+
 ### what you'll need
 * raspberry pi
 * sense hat
-* hat hacker
+* (mini black hat hack3r)[https://shop.pimoroni.com/products/mini-black-hat-hack3r] 
 * LDR/photoresistor
 * 1 uF electrolytic capacitor
-* resistor  
-* various female to male jumper wires
+* 4 female-to-male jumper wires
+
 ### additional resources
 For detailed instructions on collecting and exporting data to .csv, see the [Sense HAT data logger](https://projects.raspberrypi.org/en/projects/sense-hat-data-logger) project at [projects.raspberrypi.org](projects.raspberripi.org).  
 
 Help wiring the photoresistor came from [Raspberry Pi Light Sensor: A Simple LDR Tutorial](https://pimylifeup.com/raspberry-pi-light-sensor/) on [pimylifeup.com](pimylifeup.com), although the code used in this project is different.
 
 ### instructions
-1. Assemble the physical components of the project (see `ldr_project_example.jpg` in this repository)  
+1. Assemble the physical components of the project (see `ldr_diagram.png` in this repository)  
 >**Note:** in our example image, the purple wire is most important. One end is inserted into the breadboard between the photoresistor and capacitor; the other end runs to pin 4 on our hat hacker.
 1. Download both python files from this repository to the same folder on your pi
 1. Edit the `ldr` variable in `ldr_experiment_trigger.py` so that it corresponds to your wiring
