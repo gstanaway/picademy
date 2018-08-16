@@ -12,7 +12,7 @@ from datetime import datetime, date, time
 from csv import writer
 
 # define light sensor
-ldr = LightSensor(4)
+ldr = LightSensor(4) # replace "4" with whichever pin corresponds to your wiring
 
 # define sensehat
 sense = SenseHat()
