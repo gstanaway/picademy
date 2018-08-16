@@ -9,7 +9,7 @@ clare tally-foos, grant stanaway, jeannette milland vigio, kelly faber, scott mc
 ### what you'll need
 * raspberry pi
 * sense hat
-* (mini black hat hack3r)[https://shop.pimoroni.com/products/mini-black-hat-hack3r] 
+* [mini black hat hack3r](https://shop.pimoroni.com/products/mini-black-hat-hack3r)
 * LDR/photoresistor
 * 1 uF electrolytic capacitor
 * 4 female-to-male jumper wires
